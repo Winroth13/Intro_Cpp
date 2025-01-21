@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.1.2.cpp" />
+    <ClCompile Include="1.1.7.cpp" />
+    <ClCompile Include="lessonOne.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="questionsOne.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,44 @@
+1)
+int
+char
+boolS
+
+2)
+Nej.
+
+3)
+2
+
+4)
+2.4
+
+5)
+A) true
+B) false
+C) true
+
+6)
+x += 1
+x ++
+x = x + 1
+
+7)
+Ja.
+
+8)
+5
+
+9)
+Ingenting.
+
+10)
+Inte.
+
+11)
+str1 == str2
+str1.compare(str2) == 0
+
+12)
+std::string str(7, c);
+
+13)

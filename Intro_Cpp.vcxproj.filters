@@ -15,8 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.1.2.cpp">
+    <ClCompile Include="1.1.7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lessonOne.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="questionsOne.txt" />
   </ItemGroup>
 </Project>
