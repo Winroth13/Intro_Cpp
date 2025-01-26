@@ -127,10 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.1.7.cpp" />
+    <Text Include="questions1.1.txt" />
+    <Text Include="questions1.2.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="questions1.txt" />
+    <ClCompile Include="1.3.6.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

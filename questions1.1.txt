@@ -42,3 +42,22 @@ str1.compare(str2) == 0
 std::string str(7, c);
 
 13)
+A) std::rand() % 21;
+B) (std::rand() % 11) + 10;
+C) (std::rand() % 21) - 10;
+
+14)
+std::string regNr;
+std::cin >>  regNr;
+
+15)
+std::getline(cin, address)
+
+16)
+getline kräver std::
+
+17)
+6 6
+
+18)
+22 22.5

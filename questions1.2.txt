@@ -1,0 +1,6 @@
+1)
+for (declaration; statement; increment) {}
+while (statement) {}
+
+2)
+Det ska inte vara ett ; efter while (nr <10)
