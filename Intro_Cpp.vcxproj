@@ -127,15 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="questions1.1.txt" />
-    <Text Include="questions1.2.txt" />
+    <Text Include="questions_1.1.txt" />
+    <Text Include="questions_1.2.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lesson2Head.h" />
+    <ClCompile Include="lesson_2_intro_functions.cpp" />
+    <ClCompile Include="lesson_2_intro_main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lesson2Functions.cpp" />
-    <ClCompile Include="lesson2Main.cpp" />
+    <ClInclude Include="lesson_2_intro_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

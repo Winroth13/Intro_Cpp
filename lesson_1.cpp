@@ -5,7 +5,7 @@ struct Icecream {
 	int grade;
 };
 
-Icecream* InputIce(Icecream* iceArray, int numIce) {
+Icecream* InputIce(Icecream iceArray[], int numIce) {
 	std::cout << "\nInput the names of the " << numIce << " ice creams:\n";
 
 	for (int i = 0; i < numIce; i++) {
@@ -18,7 +18,7 @@ Icecream* InputIce(Icecream* iceArray, int numIce) {
 	return iceArray;
 }
 
-void AvgIceGrade(Icecream* iceArray, int numIce, int numGrading) {
+void AvgIceGrade(Icecream iceArray[], int numIce, int numGrading) {
 	for (int i = 0; i < numIce; i++) {
 		int totGrade = iceArray[i].grade;
 		int avgGrade = totGrade / numGrading;
@@ -26,7 +26,7 @@ void AvgIceGrade(Icecream* iceArray, int numIce, int numGrading) {
 	}
 }
 
-int GradeIce(Icecream* iceArray, int numIce) {
+int GradeIce(Icecream iceArray[], int numIce) {
 	int numGrading = 0;
 	char moreGrading;
 
@@ -49,7 +49,7 @@ int GradeIce(Icecream* iceArray, int numIce) {
 	return numGrading;
 }
 
-void PrintGrades(Icecream* iceArray, int numIce) {
+void PrintGrades(Icecream iceArray[], int numIce) {
 	std::cout << "The average score for each ice cream is:\n";
 	for (int i = 0; i < numIce; i++) {
 		Icecream icecream = iceArray[i];
@@ -57,7 +57,7 @@ void PrintGrades(Icecream* iceArray, int numIce) {
 	}
 }
 
-Icecream GetTopIce(Icecream* iceArray, int numIce) {
+Icecream GetTopIce(Icecream iceArray[], int numIce) {
 	Icecream topIce;
 
 	for (int i = 0; i < numIce; i++) {
@@ -74,7 +74,7 @@ Icecream GetTopIce(Icecream* iceArray, int numIce) {
 	return topIce;
 }
 
-Icecream GetBottomIce(Icecream* iceArray, int numIce) {
+Icecream GetBottomIce(Icecream iceArray[], int numIce) {
 	Icecream bottomIce;
 
 	for (int i = 0; i < numIce; i++) {
@@ -91,7 +91,7 @@ Icecream GetBottomIce(Icecream* iceArray, int numIce) {
 	return bottomIce;
 }
 
-bool HasIce(Icecream* iceArray, int numIce, std::string iceName) {
+bool HasIce(Icecream iceArray[], int numIce, std::string iceName) {
 	bool hasIce = false;
 
 	for (int i = 0; i < numIce; i++) {
