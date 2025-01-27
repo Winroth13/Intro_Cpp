@@ -19,7 +19,15 @@
     <Text Include="questions1.2.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.3.6.cpp">
+    <ClInclude Include="lesson2Head.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lesson2Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson2Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
