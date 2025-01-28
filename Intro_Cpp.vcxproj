@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="module_1\larger_assignment_1\catch_amalgamated.hpp" />
     <ClInclude Include="module_1\larger_assignment_1\functions.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="module_1\larger_assignment_1\catch_amalgamated.cpp" />
     <ClCompile Include="module_1\larger_assignment_1\funcrtions.cpp" />
-    <ClCompile Include="module_1\larger_assignment_1\main.cpp" />
+    <ClCompile Include="module_1\larger_assignment_1\TestBigExercise.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="words.txt" />

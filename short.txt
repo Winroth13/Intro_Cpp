@@ -1,0 +1,10 @@
+9
+cat
+cow
+dog
+fly
+fox
+frog
+mouse
+snail
+snake

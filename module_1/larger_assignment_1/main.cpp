@@ -7,7 +7,11 @@ int main() {
 	std::string shortFile = "short.txt";
 	std::string longFile = "long.txt";
 
-	wordSorter(inFile, shortFile, longFile, 5);
+	std::string arr[10]{ "mouse", "frog" , "fox", "snake", "cat", "dog", "cow", "fly", "hourse", "snail" };
+
+	sort(arr, 10);
+
+	//wordSorter(inFile, shortFile, longFile, 6);
 
 	return 0;
 }
