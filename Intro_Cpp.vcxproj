@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="module_1\larger_assignment_1\functions.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="module_1\larger_assignment_1\funcrtions.cpp" />
+    <ClCompile Include="module_1\larger_assignment_1\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="words.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,17 +136,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <Text Include="questions_1.1.txt" />
-    <Text Include="questions_1.2.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="lesson_2_intro_functions.cpp" />
-    <ClCompile Include="lesson_2_intro_main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="lesson_2_intro_header.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

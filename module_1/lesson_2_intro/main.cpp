@@ -1,4 +1,4 @@
-#include "lesson_2_intro_header.h"
+#include "functions.h"
 #include <iostream>
 #include <string>
 #include <queue>
@@ -25,7 +25,7 @@ int main() {
 
 	std::cout << "\n" << nameArray[longestIndex] << " is the longest word.";
 
-	WriteToFile(nameArray, numNames, "lesson_2_intro_names.txt");
+	WriteToFile(nameArray, numNames, "names.txt");
 
 	delete[] nameArray;
 

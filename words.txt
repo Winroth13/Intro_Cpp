@@ -1,0 +1,11 @@
+10
+wall
+wheat
+building
+block
+personal
+lamp
+mug
+repeat
+guarantee
+tradition

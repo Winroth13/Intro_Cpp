@@ -15,20 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="questions_1.1.txt" />
-    <Text Include="questions_1.2.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="lesson_2_intro_functions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="lesson_2_intro_main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="lesson_2_intro_header.h">
+    <ClInclude Include="module_1\larger_assignment_1\functions.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="module_1\larger_assignment_1\funcrtions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="module_1\larger_assignment_1\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="words.txt" />
   </ItemGroup>
 </Project>

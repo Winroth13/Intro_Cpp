@@ -1,5 +1,5 @@
-#ifndef LESSON_2_INTRO_HEADER_H
-#define LESSON_2_INTRO_HEADER_H
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
 
 #include <string>
 
