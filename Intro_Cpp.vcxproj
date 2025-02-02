@@ -19,16 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="module_1\larger_assignment_1\catch_amalgamated.hpp" />
-    <ClInclude Include="module_1\larger_assignment_1\functions.hpp" />
+    <ClInclude Include="module_1\example_exam_1\ToDo.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_1\larger_assignment_1\catch_amalgamated.cpp" />
-    <ClCompile Include="module_1\larger_assignment_1\funcrtions.cpp" />
-    <ClCompile Include="module_1\larger_assignment_1\TestBigExercise.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="words.txt" />
+    <ClCompile Include="module_1\example_exam_1\TestCorrectness.cpp" />
+    <ClCompile Include="module_1\example_exam_1\ToDo.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

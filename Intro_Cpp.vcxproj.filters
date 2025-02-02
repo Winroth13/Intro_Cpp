@@ -15,25 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="module_1\larger_assignment_1\functions.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="module_1\larger_assignment_1\catch_amalgamated.hpp">
+    <ClInclude Include="module_1\example_exam_1\ToDo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_1\larger_assignment_1\funcrtions.cpp">
+    <ClCompile Include="module_1\example_exam_1\ToDo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="module_1\larger_assignment_1\TestBigExercise.cpp">
+    <ClCompile Include="module_1\example_exam_1\TestCorrectness.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="module_1\larger_assignment_1\catch_amalgamated.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="words.txt" />
   </ItemGroup>
 </Project>
