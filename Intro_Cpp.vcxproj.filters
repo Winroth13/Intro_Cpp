@@ -15,7 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_2\quick_tasks\2.1\main.cpp">
+    <ClInclude Include="module_2\quick_tasks\4.1\functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module_2\quick_tasks\4.1\rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="module_2\quick_tasks\4.1\functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="module_2\quick_tasks\4.1\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="module_2\quick_tasks\4.1\rectangel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

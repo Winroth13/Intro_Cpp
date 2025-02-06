@@ -19,7 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_2\quick_tasks\2.1\main.cpp" />
+    <ClInclude Include="module_2\quick_tasks\4.1\functions.h" />
+    <ClInclude Include="module_2\quick_tasks\4.1\rectangle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="module_2\quick_tasks\4.1\functions.cpp" />
+    <ClCompile Include="module_2\quick_tasks\4.1\main.cpp" />
+    <ClCompile Include="module_2\quick_tasks\4.1\rectangel.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
