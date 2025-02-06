@@ -15,15 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="module_1\example_exam_1\ToDo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="module_1\example_exam_1\ToDo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="module_1\example_exam_1\TestCorrectness.cpp">
+    <ClCompile Include="module_2\quick_tasks\2.1\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
