@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="module_2\quick_tasks\4.1\functions.h" />
-    <ClInclude Include="module_2\quick_tasks\4.1\rectangle.h" />
+    <ClInclude Include="module_2\lesson_2_intro\Cart.h" />
+    <ClInclude Include="module_2\lesson_2_intro\WallPaper.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_2\quick_tasks\4.1\functions.cpp" />
-    <ClCompile Include="module_2\quick_tasks\4.1\main.cpp" />
-    <ClCompile Include="module_2\quick_tasks\4.1\rectangel.cpp" />
+    <ClCompile Include="module_2\lesson_2_intro\Cart.cpp" />
+    <ClCompile Include="module_2\lesson_2_intro\main.cpp" />
+    <ClCompile Include="module_2\lesson_2_intro\WallPaper.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
