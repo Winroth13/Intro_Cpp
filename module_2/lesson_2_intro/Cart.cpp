@@ -39,7 +39,7 @@ bool Cart::RemoveWallPaper(const std::string pattern, const int price) {
 				wallPaperArr[y] = wallPaperArr[y + 1];
 			}
 
-			wallPaperArr[nrOf] = WallPaper();
+			wallPaperArr[nrOf - 1] = WallPaper();
 
 			nrOf--;
 
