@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="module_2\example_exam_1\Candy.h">
+    <ClInclude Include="module_2\example_exam_2\Vehicle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="module_2\example_exam_1\CandyStore.h">
+    <ClInclude Include="module_2\example_exam_2\Garage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_2\example_exam_1\Candy.cpp">
+    <ClCompile Include="module_2\example_exam_2\Vehicle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="module_2\example_exam_1\CandyStore.cpp">
+    <ClCompile Include="module_2\example_exam_2\GarageTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="module_2\example_exam_1\CandyStoreTest.cpp">
+    <ClCompile Include="module_2\example_exam_2\Garage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
