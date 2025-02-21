@@ -19,13 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="module_2\example_exam_2\Garage.h" />
-    <ClInclude Include="module_2\example_exam_2\Vehicle.h" />
+    <ClCompile Include="module_3\lesson_1\Box.cpp" />
+    <ClCompile Include="module_3\lesson_1\Cylinder.cpp" />
+    <ClCompile Include="module_3\lesson_1\Shape3D.cpp" />
+    <ClCompile Include="module_3\lesson_1\test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_2\example_exam_2\Garage.cpp" />
-    <ClCompile Include="module_2\example_exam_2\GarageTest.cpp" />
-    <ClCompile Include="module_2\example_exam_2\Vehicle.cpp" />
+    <ClInclude Include="module_3\lesson_1\Box.h" />
+    <ClInclude Include="module_3\lesson_1\Cylinder.h" />
+    <ClInclude Include="module_3\lesson_1\Shape3D.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
