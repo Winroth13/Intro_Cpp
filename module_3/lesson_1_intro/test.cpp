@@ -37,7 +37,9 @@ int main() {
 	products[3] = &eggPack2;
 
 	for (Product* product : products) {
-		std::cout << product->Description() + "\n";
+		if (dynamic_cast<EggPackage*>(product) != nullptr) {
+			std::cout << product->Description() + "\n";
+		}
 	}
 
 	return 0;

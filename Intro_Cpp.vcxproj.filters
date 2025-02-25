@@ -15,28 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_3\lesson_1\Shape3D.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="module_3\lesson_1\Box.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="module_3\lesson_1\Cylinder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="module_3\lesson_1\test.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="module_3\quick_tasks\4.4\Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="module_3\lesson_1\Shape3D.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="module_3\lesson_1\Box.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="module_3\lesson_1\Cylinder.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="module_3\quick_tasks\4.4\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

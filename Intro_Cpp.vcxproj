@@ -19,15 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_3\lesson_1\Box.cpp" />
-    <ClCompile Include="module_3\lesson_1\Cylinder.cpp" />
-    <ClCompile Include="module_3\lesson_1\Shape3D.cpp" />
-    <ClCompile Include="module_3\lesson_1\test.cpp" />
+    <ClInclude Include="module_3\quick_tasks\4.4\Array.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="module_3\lesson_1\Box.h" />
-    <ClInclude Include="module_3\lesson_1\Cylinder.h" />
-    <ClInclude Include="module_3\lesson_1\Shape3D.h" />
+    <ClCompile Include="module_3\quick_tasks\4.4\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
