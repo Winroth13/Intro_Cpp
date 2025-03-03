@@ -19,10 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="module_3\quick_tasks\4.4\Array.h" />
+    <ClCompile Include="module_3\example_exam_3\Glasses.cpp" />
+    <ClCompile Include="module_3\example_exam_3\ReadingGlasses.cpp" />
+    <ClCompile Include="module_3\example_exam_3\Stock.cpp" />
+    <ClCompile Include="module_3\example_exam_3\SunGlasses.cpp" />
+    <ClCompile Include="module_3\example_exam_3\TestingStock.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_3\quick_tasks\4.4\main.cpp" />
+    <ClInclude Include="module_3\example_exam_3\Glasses.h" />
+    <ClInclude Include="module_3\example_exam_3\ReadingGlasses.h" />
+    <ClInclude Include="module_3\example_exam_3\Stock.h" />
+    <ClInclude Include="module_3\example_exam_3\SunGlasses.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

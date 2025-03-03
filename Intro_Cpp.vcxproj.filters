@@ -15,13 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="module_3\quick_tasks\4.4\Array.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="module_3\quick_tasks\4.4\main.cpp">
+    <ClCompile Include="module_3\example_exam_3\Glasses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="module_3\example_exam_3\ReadingGlasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="module_3\example_exam_3\SunGlasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="module_3\example_exam_3\TestingStock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="module_3\example_exam_3\Stock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="module_3\example_exam_3\Glasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module_3\example_exam_3\ReadingGlasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module_3\example_exam_3\SunGlasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module_3\example_exam_3\Stock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
