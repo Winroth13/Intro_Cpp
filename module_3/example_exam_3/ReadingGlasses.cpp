@@ -11,9 +11,8 @@ float ReadingGlasses::getStrength() {
 
 int ReadingGlasses::calculateFinalPrice() const {
 	int price = this->getBasePrice();
-	std::string expensive = "dubbelslipade";
 
-	if (this->typeOfGlass == expensive) {
+	if (this->typeOfGlass == "dubbelslipade") {
 		price += 1500;
 	}
 

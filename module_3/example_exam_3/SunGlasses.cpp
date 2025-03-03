@@ -11,9 +11,8 @@ std::string SunGlasses::getColour() const {
 
 int SunGlasses::calculateFinalPrice() const {
 	int price = this->getBasePrice();
-	std::string cheap = "brun";
 
-	if (this->colour != cheap) {
+	if (this->colour != "brun") {
 		price += 200;
 	}
 

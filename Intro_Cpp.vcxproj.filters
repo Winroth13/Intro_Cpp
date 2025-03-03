@@ -24,10 +24,10 @@
     <ClCompile Include="module_3\example_exam_3\SunGlasses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="module_3\example_exam_3\TestingStock.cpp">
+    <ClCompile Include="module_3\example_exam_3\Stock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="module_3\example_exam_3\Stock.cpp">
+    <ClCompile Include="module_3\example_exam_3\TestingStock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

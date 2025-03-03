@@ -32,7 +32,6 @@ bool testInitialContent()
 	return true;
 }
 
-
 bool testAddingGlasses()
 {
 	cout << endl << "Test adding glasses" << endl;
@@ -101,7 +100,6 @@ bool testAddingGlasses()
 		cout << "NOT CORRECT 10: expected true but got false" << endl;
 		return false;
 	}
-	
 
 	for (int i = 0; i < 13; i++)
 	{
@@ -121,8 +119,6 @@ bool testAddingGlasses()
 	return true;
 }
 
-
-
 bool testingCopyConstructor()
 {
 	cout << "Test copy constructor" << endl;
@@ -133,7 +129,6 @@ bool testingCopyConstructor()
 		{
 			cout << "NOT CORRECT 1: expected 0 but got " << bStock.nrOfGlasses() << endl;
 			return false;
-
 		}
 	}
 	{
@@ -147,20 +142,18 @@ bool testingCopyConstructor()
 		{
 			cout << "NOT CORRECT 3: expected 3 but got " << bStock.nrOfGlasses() << endl;
 			return false;
-
 		}
 		if (bStock.nrOfSunGlasses("gul") != 1)
 		{
 			cout << "NOT CORRECT 4: expected 1 but got " << bStock.nrOfSunGlasses("gul") << endl;
 			return false;
-
 		}
-		for (int i=0; i<3; i++)
-		if (aStock.getAccessToGlassesAt(i) == bStock.getAccessToGlassesAt(i))
-		{
-			cout << "NOT CORRECT 5: expected different adresses but got same adress " << endl;
-			return false;
-		}
+		for (int i = 0; i < 3; i++)
+			if (aStock.getAccessToGlassesAt(i) == bStock.getAccessToGlassesAt(i))
+			{
+				cout << "NOT CORRECT 5: expected different adresses but got same adress " << endl;
+				return false;
+			}
 	}
 	cout << "OK Test copy constructor" << endl << endl;
 	return true;
@@ -178,7 +171,6 @@ bool testingAssignmentOperator()
 		{
 			cout << "NOT CORRECT 1: expected 0 but got " << bStock.nrOfGlasses() << endl;
 			return false;
-
 		}
 	}
 	{
@@ -192,16 +184,14 @@ bool testingAssignmentOperator()
 		{
 			cout << "NOT CORRECT 2: expected 2 but got " << bStock.nrOfGlasses() << endl;
 			return false;
-
 		}
 		if (bStock.nrOfSunGlasses("orange") != 1)
 		{
 			cout << "NOT CORRECT 3: expected 1 but got " << bStock.nrOfSunGlasses("orange") << endl;
 			return false;
-
 		}
 
-		if (aStock.getAccessToGlassesAt(0) == bStock.getAccessToGlassesAt(0) || 
+		if (aStock.getAccessToGlassesAt(0) == bStock.getAccessToGlassesAt(0) ||
 			aStock.getAccessToGlassesAt(0) == bStock.getAccessToGlassesAt(1) ||
 			aStock.getAccessToGlassesAt(1) == bStock.getAccessToGlassesAt(0) ||
 			aStock.getAccessToGlassesAt(1) == bStock.getAccessToGlassesAt(1))
@@ -222,7 +212,6 @@ bool testingAssignmentOperator()
 		{
 			cout << "NOT CORRECT 5: expected 0 but got " << aStock.nrOfGlasses() << endl;
 			return false;
-
 		}
 		if (bStock.nrOfGlasses() != 0)
 		{
@@ -246,13 +235,11 @@ bool testingAssignmentOperator()
 		{
 			cout << "NOT CORRECT 7: expected 4 but got " << bStock.nrOfGlasses() << endl;
 			return false;
-
 		}
 		if (aStock.nrOfSunGlasses("gul") != 1)
 		{
 			cout << "NOT CORRECT 8: expected 1 but got " << bStock.nrOfSunGlasses("gul") << endl;
 			return false;
-
 		}
 
 		if (aStock.getAccessToGlassesAt(1) == bStock.getAccessToGlassesAt(1) ||
@@ -263,7 +250,6 @@ bool testingAssignmentOperator()
 		}
 	}
 	{
-
 		Stock aStock;
 		aStock.add("Viito", 400, 3.0f);
 		aStock.add("Borg", 600, "gul");
@@ -287,7 +273,6 @@ bool testingAssignmentOperator()
 	cout << "OK Test assignment operator" << endl;
 	return true;
 }
-
 
 int main()
 {
