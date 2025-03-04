@@ -19,17 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_3\example_exam_3\Glasses.cpp" />
-    <ClCompile Include="module_3\example_exam_3\ReadingGlasses.cpp" />
-    <ClCompile Include="module_3\example_exam_3\Stock.cpp" />
-    <ClCompile Include="module_3\example_exam_3\SunGlasses.cpp" />
-    <ClCompile Include="module_3\example_exam_3\TestingStock.cpp" />
+    <ClCompile Include="module_3\lesson_3\Elite.cpp" />
+    <ClCompile Include="module_3\lesson_3\Exerciser.cpp" />
+    <ClCompile Include="module_3\lesson_3\Participant.cpp" />
+    <ClCompile Include="module_3\lesson_3\Register.cpp" />
+    <ClCompile Include="module_3\lesson_3\test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="module_3\example_exam_3\Glasses.h" />
-    <ClInclude Include="module_3\example_exam_3\ReadingGlasses.h" />
-    <ClInclude Include="module_3\example_exam_3\Stock.h" />
-    <ClInclude Include="module_3\example_exam_3\SunGlasses.h" />
+    <ClInclude Include="module_3\lesson_3\Elite.h" />
+    <ClInclude Include="module_3\lesson_3\Exerciser.h" />
+    <ClInclude Include="module_3\lesson_3\Participant.h" />
+    <ClInclude Include="module_3\lesson_3\Register.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
