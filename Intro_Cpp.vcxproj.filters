@@ -15,33 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="module_3\lesson_3\Participant.cpp">
+    <ClCompile Include="module_3\example_exam_2\ShopTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="module_3\lesson_3\Exerciser.cpp">
+    <ClCompile Include="module_3\example_exam_2\Egg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="module_3\lesson_3\Elite.cpp">
+    <ClCompile Include="module_3\example_exam_2\Juice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="module_3\lesson_3\test.cpp">
+    <ClCompile Include="module_3\example_exam_2\Product.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="module_3\lesson_3\Register.cpp">
+    <ClCompile Include="module_3\example_exam_2\Shop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="module_3\lesson_3\Participant.h">
+    <ClInclude Include="module_3\example_exam_2\Egg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="module_3\lesson_3\Exerciser.h">
+    <ClInclude Include="module_3\example_exam_2\Juice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="module_3\lesson_3\Elite.h">
+    <ClInclude Include="module_3\example_exam_2\Product.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="module_3\lesson_3\Register.h">
+    <ClInclude Include="module_3\example_exam_2\Shop.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

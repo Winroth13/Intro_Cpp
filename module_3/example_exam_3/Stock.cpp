@@ -14,7 +14,12 @@ Stock::Stock() {
 
 Stock::~Stock() {
 	for (int i = 0; i < numGlasses; ++i) {
-		delete glassList[i];
+		if (dynamic_cast<SunGlasses*>(this->glassList[i])) {
+			delete dynamic_cast<SunGlasses*>(this->glassList[i]);
+		}
+		else {
+			delete dynamic_cast<ReadingGlasses*>(this->glassList[i]);
+		}
 	}
 }
 
@@ -96,6 +101,15 @@ Stock::Stock(const Stock& other)
 
 Stock& Stock::operator=(const Stock& other) {
 	if (this != &other) {
+		for (int i = 0; i < numGlasses; ++i) {
+			if (dynamic_cast<SunGlasses*>(this->glassList[i])) {
+				delete dynamic_cast<SunGlasses*>(this->glassList[i]);
+			}
+			else {
+				delete dynamic_cast<ReadingGlasses*>(this->glassList[i]);
+			}
+		}
+
 		this->numGlasses = other.numGlasses;
 
 		for (int i = 0; i < other.numGlasses; ++i) {
