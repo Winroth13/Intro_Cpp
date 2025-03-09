@@ -9,10 +9,6 @@ Shop::Shop(const int startMax)
 	: maxProducts(startMax) {
 	this->productList = new Product * [startMax];
 	this->numProducts = 0;
-
-	for (int i = 0; i < maxProducts; ++i) {
-		productList[i] = nullptr;
-	}
 }
 
 Shop::~Shop() {
@@ -92,8 +88,8 @@ void Shop::showAllProducts() const {
 Shop::Shop(const Shop& other) {
 	this->numProducts = other.numProducts;
 	this->maxProducts = other.maxProducts;
-
 	this->productList = new Product * [this->maxProducts];
+
 	for (int i = 0; i < this->numProducts; ++i) {
 		Egg* eggCast = dynamic_cast<Egg*>(other.productList[i]);
 		if (eggCast != nullptr) {
